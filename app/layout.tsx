@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.className},${montserrat.className}`}>{children}</body>
+      <body className={`${montserrat.className} ${poppins.className}`}>{children}</body>
     </html>
   );
 }
