@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  color: white;
+}
+
+.content {
+  padding: 3rem 12rem 8rem 12rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.bg {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  object-fit: cover;
+  z-index: -10;
+}

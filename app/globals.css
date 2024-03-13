@@ -1,5 +1,7 @@
 html, body {
-  font-family: var(--font-);
+  font-family: var(--font-montserrat);
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -20,7 +22,7 @@ h1 {
 h2 {
   font-size: 40px;
   font-weight: bold;
-  line-height: 57px;
+  line-height: 30px;
   letter-spacing: 0.2px;
 }
 
@@ -38,12 +40,8 @@ h4 {
   letter-spacing: 0.2px;
 }
 
-button-oval {
-  padding: 3rem, 0, 3rem, 0;
-  border-radius: 30px;
-}
 
-button-square {
-  padding: 2rem, 0, 2rem, 0;
-  border-radius: 10px;
+main {
+  align-items: center;
+  justify-content: center;
 }

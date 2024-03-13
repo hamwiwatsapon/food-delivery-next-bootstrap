@@ -1,9 +1,12 @@
 import styles from "./page.module.css"
+import Blog from "@/app/interface/Blog/Blog"
+import TopNav from "@/app/interface/TopNav/TopNav"
 
 const Home = () => {
   return (
     <main className={styles.main}>
-      <h1>TEST</h1>
+      <TopNav current="/"/>
+      <Blog />
     </main>
   )
 }
