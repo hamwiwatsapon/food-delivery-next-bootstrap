@@ -22,7 +22,7 @@
 }
 
 .square {
-  padding:1rem 4rem 1rem 4rem;
+  padding:1.5rem 3rem 1.5rem 3rem;
   border-radius: 10px;
   margin-right: 2rem;
   border: 0px;
@@ -33,7 +33,7 @@
 }
 
 .subsquare {
-  padding:1rem 4rem 1rem 4rem;
+  padding:1.5rem 3rem 1.5rem 3rem;
   border-radius: 10px;
   margin-right: 2rem;
   border: 1px solid #FFFFFF;

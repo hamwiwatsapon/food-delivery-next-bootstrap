@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  color: white;
+  margin-bottom: 37rem;
+}
+
+.content {
+  padding: 3rem 12rem 10rem 12rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.bg {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  object-fit: cover;
+  z-index: -10;
+}
+
+.img {
+  position: absolute;
+  align-self: center;
+  width: 548px;
+  height: 640px;
+  top:75%;
+}
+
+.shadow {
+  z-index: -5;
+  box-shadow: 200px 200px 150px 300px #2E040436;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+}
+
+.line {
+  border: 3px solid #E4E4E4;
+  align-self: center;
+  justify-self: center;
+  width: 60%;
+  margin: 1rem;
+}
+
+.linediv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
