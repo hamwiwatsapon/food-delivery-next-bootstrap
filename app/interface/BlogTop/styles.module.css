@@ -7,7 +7,7 @@
 }
 
 .content {
-  padding: 3rem 12rem 10rem 12rem;
+  padding: 3rem 25rem 10rem 25rem;
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -42,7 +42,7 @@
   border: 3px solid #E4E4E4;
   align-self: center;
   justify-self: center;
-  width: 60%;
+  width: 90%;
   margin: 1rem;
 }
 

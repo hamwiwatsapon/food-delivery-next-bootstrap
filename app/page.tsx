@@ -3,6 +3,9 @@ import BlogTop from "@/app/interface/BlogTop/BlogTop"
 import BlogBottom from "./interface/BlogBottom/BlogBottom"
 import TopNav from "@/app/interface/TopNav/TopNav"
 import ContentBlog from "@/app/interface/ContentBlog/ContentBlog"
+import Footer from "./interface/Footer/Footer"
+
+
 const Home = () => {
   return (
     <main className={styles.main}>
@@ -51,6 +54,7 @@ const Home = () => {
         textbt2="App store"
         bg="/bottombg.svg"
       />
+      <Footer />
     </main>
   )
 }
